@@ -29,7 +29,7 @@ def move(my_history, their_history, my_score, their_score):
 def Gamewinner(history):
     if len(my_history) == 0:        
           return "c"    
-    if thier_score > 0:        
+    if their_score > 0:        
            
         import random
         number = random.randint(1,10)
